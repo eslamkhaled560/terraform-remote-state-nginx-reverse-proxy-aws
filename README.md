@@ -10,18 +10,18 @@ _Islam Khaled_
 13 July 2023
 
 -----------------------------------------
-## Dev workspace 
+## Dev Workspace 
 
 ![1](https://github.com/eslamkhaled560/terraform-remote-state-nginx-reverse-proxy-aws/assets/54172897/e45056f4-e9ff-4a2a-b2cf-78ae2c5d19ab)
 
 -----------------------------------------
 ## Automated Nginx Configuration!
 
-- Private load balancer dns
+- Private load balancer DNS
 
 ![2](https://github.com/eslamkhaled560/terraform-remote-state-nginx-reverse-proxy-aws/assets/54172897/f14f157c-b4f0-4f10-b1a5-ffde1bdd7f23)
 
-- Nginx Instances user data, providing private load balancer dns as a variable ```proxy_pass_url```
+- Nginx Instances user data, providing private load balancer DNS as a variable ```proxy_pass_url```. Notice ```depends_on```.
 
 ![3](https://github.com/eslamkhaled560/terraform-remote-state-nginx-reverse-proxy-aws/assets/54172897/891f1cc4-07b5-475b-a90c-83af255e077b)
 ![4](https://github.com/eslamkhaled560/terraform-remote-state-nginx-reverse-proxy-aws/assets/54172897/ec2e771c-143b-4049-a451-016cd0c74123)
