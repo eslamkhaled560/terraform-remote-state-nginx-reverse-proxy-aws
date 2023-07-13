@@ -30,6 +30,7 @@ resource "aws_dynamodb_table" "dynamodb" {
   }
 }
 
+/*
 terraform {
   backend "s3" {
     bucket = "tf-state-bucket-54651800"
@@ -39,3 +40,4 @@ terraform {
     encrypt = true
   }
 }
+*/
