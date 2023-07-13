@@ -1,0 +1,7 @@
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d
+.idea
+remote_backend.txt
+.terraform.lock.hcl
