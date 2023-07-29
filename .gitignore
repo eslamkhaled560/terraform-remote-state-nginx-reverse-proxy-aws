@@ -5,3 +5,6 @@ terraform.tfstate.d
 .idea
 remote_backend.txt
 .terraform.lock.hcl
+
+errored.tfstate
+values.auto.tfvars

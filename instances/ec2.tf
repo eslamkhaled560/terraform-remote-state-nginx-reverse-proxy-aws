@@ -39,7 +39,7 @@ resource "aws_instance" "apache1" {
   }
   provisioner "local-exec" {
     command = "echo 'Apache1 Private IP: ${self.public_ip}' >> all-ips.txt"
-  }*/
+  } */
 
   user_data = file("./instances/apache.sh")
   tags = {
